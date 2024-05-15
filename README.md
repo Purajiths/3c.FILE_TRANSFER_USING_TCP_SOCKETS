@@ -29,7 +29,7 @@ def start_client():
 start_client()
 ```
 ## Server:
-````
+```
 import socket
 def send_file(filename, client_socket):
     with open(filename, 'rb') as file:
